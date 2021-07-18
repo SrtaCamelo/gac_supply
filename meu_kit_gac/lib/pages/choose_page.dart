@@ -17,7 +17,7 @@ class _ChoosePageState extends State<ChoosePage> {
             children: [
               ElevatedButton(onPressed: () {
                 Navigator.of(context).pushNamed("request_page");
-              }, child: Text("FAZER PEDIDOS")),
+              }, child: Text("ANOTAR PEDIDO")),
 
               ElevatedButton(onPressed: () {
                 Navigator.of(context).pushNamed("all_requests_page");

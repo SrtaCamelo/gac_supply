@@ -8,6 +8,10 @@ class AllRequests extends StatefulWidget {
 class _AllRequestsState extends State<AllRequests> {
   @override
   Widget build(BuildContext context) {
-    return Container();
+    return Scaffold(
+      body: SafeArea(
+
+      ),
+    );
   }
 }
