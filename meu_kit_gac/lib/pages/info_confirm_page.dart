@@ -75,7 +75,7 @@ class _InfoConfirmState extends State<InfoConfirmPage> {
                 ),
 
                 ElevatedButton(onPressed: () {
-                  Navigator.of(context).pushNamed("item_select_page");
+                  Navigator.of(context).pushNamed("item_select_page2", arguments: patient);
                 }, child: Text("Confirmar")),
 
                 ElevatedButton(onPressed: () {

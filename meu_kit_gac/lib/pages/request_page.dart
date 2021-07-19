@@ -90,6 +90,34 @@ class _RequestPageState extends State<RequestPage> {
                           value: "1B",
                           child: Text('1B'),
                         ),
+                        const PopupMenuItem(
+                          value: "1C",
+                          child: Text('1C'),
+                        ),
+                        const PopupMenuItem(
+                          value: "2A",
+                          child: Text('2A'),
+                        ),
+                        const PopupMenuItem(
+                          value: "2B",
+                          child: Text('2B'),
+                        ),
+                        const PopupMenuItem(
+                          value: "2C",
+                          child: Text('2C'),
+                        ),
+                        const PopupMenuItem(
+                          value: "3A",
+                          child: Text('3A'),
+                        ),
+                        const PopupMenuItem(
+                          value: "3B",
+                          child: Text('3B'),
+                        ),
+                        const PopupMenuItem(
+                          value: "3C",
+                          child: Text('3C'),
+                        ),
                       ],
                     ),
                   ),
