@@ -1,7 +1,5 @@
 
-
-
-# Gac Suooky APP 
+# Gac Supply APP 
 This app enables patients and their companions to request for supplies and hygiene products through their phones. This project is on the make to support GAC: Grupo de Apoio a Criança Carente Com Câncer.
 The motivation for this app relies on the fact that volunteers nowadays must annotate all patients requests one by one in a piece of paper, later requiring manual assessment of each item requested in order to get supplies from the stock. The administration of the hospital also has to transfer all the information written on paper to their computer, making the process slow and tiressome, wich makes it hard to keep track of the most needed items in the hospital.
 
