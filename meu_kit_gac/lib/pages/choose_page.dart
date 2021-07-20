@@ -19,13 +19,13 @@ class _ChoosePageState extends State<ChoosePage> {
                 Navigator.of(context).pushNamed("request_page");
               }, child: Text("ANOTAR PEDIDO")),
 
-              ElevatedButton(onPressed: () {
-                Navigator.of(context).pushNamed("all_requests_page");
-              }, child: Text("VER PEDIDOS")),
+              //ElevatedButton(onPressed: () {
+               // Navigator.of(context).pushNamed("all_requests_page");
+              //}, child: Text("VER PEDIDOS")),
 
-              ElevatedButton(onPressed: () {
-                Navigator.of(context).pushNamed("all_products_page");
-              }, child: Text("Ver Lista Total de Pedidos"))
+             // ElevatedButton(onPressed: () {
+              //  Navigator.of(context).pushNamed("all_products_page");
+              //}, child: Text("Ver Lista Total de Pedidos"))
             ],
           ),
         )

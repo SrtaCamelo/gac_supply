@@ -9,12 +9,18 @@ class ItemSelect2 extends StatefulWidget {
 }
 
 class _ItemSelect2State extends State<ItemSelect2> {
-
-  List<Item> items;
+  dynamic patient;
+  @override
+  void didChangeDependencies() {
+    patient = ModalRoute.of(context).settings.arguments;
+    // TODO: implement didChangeDependencies
+    super.didChangeDependencies();
+  }
+  dynamic items;
 
   @override
   void initState() {
-    items = [
+      items = [
       Item(title: "Fralda Infantil P"),
       Item(title: "Fralda Infantil M"),
       Item(title: "Fralda Infantil G"),
@@ -53,20 +59,12 @@ class _ItemSelect2State extends State<ItemSelect2> {
       child: SizedBox(
         width: double.infinity,
         child: ElevatedButton(onPressed: () {
-          // var item_aux = items.map((item){
-          //   if (item.value == true){
-          //     item.title;
-          //   }
-          // }).toList();
+          dynamic patient_request = {
+            "patient": patient,
+            "list": items,
+          };
 
-          var item_aux = [];
-          for(var i; i< items.length; i++) {
-            if(items[i].value) {
-              item_aux.add(items[i].title);
-            }
-          }
-
-          Navigator.of(context).pushNamed("item_confirm_page", arguments: item_aux);
+          Navigator.of(context).pushNamed("item_confirm_page", arguments: patient_request);
 
         }, child: Text("Confirmar")),
       ),
